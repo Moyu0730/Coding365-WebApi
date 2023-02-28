@@ -1,0 +1,111 @@
+{
+	"info": {
+		"_postman_id": "59aa1fdb-bacf-45ea-a9dc-79897fb7808d",
+		"name": "Coding365_WebApi_FIrstApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "SayHelloWorld",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44333/api/say/world",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44333",
+					"path": [
+						"api",
+						"say",
+						"world"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doworld",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44333/api/say/doworld",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44333",
+					"path": [
+						"api",
+						"say",
+						"doworld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "who",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"kenny\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44333/api/say/who",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44333",
+					"path": [
+						"api",
+						"say",
+						"who"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "employee",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"Id\":\"123\",\r\n    \"Name\":\"Kenny\"\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44333/api/say/employee",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44333",
+					"path": [
+						"api",
+						"say",
+						"employee"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
